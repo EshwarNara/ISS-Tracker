@@ -70,7 +70,7 @@ while True:
     minutes = time.minute
     print(hour)
     print(minutes)
-    if hour == 5 and minutes == 0:
+    if hour == 5 and 0 >= minutes >= 3:
         parameter = {
             "lat": MY_LAT,
             "lng": MY_LONG,
